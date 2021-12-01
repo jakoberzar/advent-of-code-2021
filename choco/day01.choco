@@ -1,0 +1,31 @@
+lines = @readlines("./inputs/day-01/full.txt");
+
+// Star 1
+count = 0;
+last = @int(lines[0]);
+idx = 1;
+while idx < @len(lines) {
+    line = @int(lines[idx]);
+    if line > last {
+        count += 1;
+    }
+    last = line;
+    idx += 1;
+}
+@print("Star 1: " + @string(count));
+
+// Star 2
+count = 0;
+sum = @int(lines[0]) + @int(lines[1]) + @int(lines[2]);
+last = sum;
+idx = 3;
+while idx < @len(lines) {
+    sum += @int(lines[idx]);
+    sum -= @int(lines[(idx - 3)]);
+    if sum > last {
+        count += 1;
+    }
+    last = sum;
+    idx += 1;
+}
+@print("Star 2: " + @string(count));
