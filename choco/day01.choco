@@ -21,7 +21,7 @@ last = sum;
 idx = 3;
 while idx < @len(lines) {
     sum += @int(lines[idx]);
-    sum -= @int(lines[(idx - 3)]);
+    sum -= @int(lines[idx - 3]);
     if sum > last {
         count += 1;
     }
