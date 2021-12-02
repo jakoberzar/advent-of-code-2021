@@ -1,6 +1,6 @@
 # Advent of Code 2021
 
-My solutions for Advent of Code 2021. This year I am practicing Python and also trying to develop my own language, Choco 🍫.
+My solutions for Advent of Code 2021. This year I am practicing Python and also trying to develop my own language, Chocolate 🍫.
 
 | Day | Python | Choco |
 | --- | ------ | ----- |
@@ -49,6 +49,12 @@ where `<filename>` is usually `simple` or `full`.
 ### Testing code
 
 ...TODO? :)
+
+## Chocolate
+
+```bash
+<choco compiler> choco/day<day_name>.choco
+```
 
 ## Other language candidates
 
