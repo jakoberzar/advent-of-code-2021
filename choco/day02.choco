@@ -1,0 +1,39 @@
+lines = @readlines("./inputs/day-02/full.txt");
+
+// Star 1
+horizontal = 0;
+depth = 0;
+idx = 0;
+while idx < @len(lines) {
+    line_split = @split(lines[idx]);
+    direction = line_split[0];
+    value = @int(line_split[1]);
+
+    if direction == "forward" {
+        horizontal += value;
+    } else {
+        depth += if direction == "down" { value } else { -value };
+    }
+    idx += 1;
+}
+@print("Star 1: " + @string(horizontal * depth));
+
+// Star 2
+horizontal = 0;
+depth = 0;
+aim = 0;
+idx = 0;
+while idx < @len(lines) {
+    line_split = @split(lines[idx]);
+    direction = line_split[0];
+    value = @int(line_split[1]);
+
+    if direction == "forward" {
+        horizontal += value;
+        depth += aim * value;
+    } else {
+        aim += if direction == "down" { value } else { -value };
+    }
+    idx += 1;
+}
+@print("Star 2: " + @string(horizontal * depth));

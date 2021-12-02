@@ -5,7 +5,7 @@ My solutions for Advent of Code 2021. This year I am practicing Python and also 
 | Day | Python | Choco |
 | --- | ------ | ----- |
 | 1   | ✔️     | ✔️    |
-| 2   | ✔️     |       |
+| 2   | ✔️     | ✔️    |
 | 3   |        |       |
 | 4   |        |       |
 | 5   |        |       |
