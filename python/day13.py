@@ -45,7 +45,7 @@ class Day13(Day):
         (axis, val) = fold
         if axis == "x":
             part1 = grid[:, 0:val]
-            part2 = np.copy(grid)[:, :val:-1]
+            part2 = grid[:, :val:-1]
             dim1 = val
             dim2 = grid.shape[1] - val - 1
             buffer = np.zeros((grid.shape[0], abs(dim2 - dim1)), dtype=np.int32)
