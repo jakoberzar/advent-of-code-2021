@@ -12,3 +12,9 @@ def read_file_lines(path: str) -> List[str]:
 
 def read_file_lines_int(path: str) -> List[int]:
     return [int(line) for line in read_file_lines(path)]
+
+
+def read_file_commas_int(path: str) -> List[int]:
+    with open(path, encoding="utf-8") as file:
+        numbers = file.read().strip().split(",")
+        return [int(n) for n in numbers]
