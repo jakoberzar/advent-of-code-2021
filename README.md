@@ -1,6 +1,6 @@
 # Advent of Code 2021
 
-My solutions for Advent of Code 2021. This year I am practicing Python and also trying to develop my own language, Chocolate 🍫.
+My solutions for Advent of Code 2021. This year I am practicing Python 🐍 and also trying to develop my own language, Chocolate 🍫.
 
 | Day | Python | Choco |
 | --- | ------ | ----- |
