@@ -15,7 +15,7 @@ My solutions for Advent of Code 2021. This year I am practicing Python 🐍 and 
 | 9   | ✔️     |       |
 | 10  | ✔️     |       |
 | 11  | ✔️     |       |
-| 12  |        |       |
+| 12  | ✔️     |       |
 | 13  | ✔️     |       |
 | 14  | ✔️     |       |
 | 15  |        |       |
